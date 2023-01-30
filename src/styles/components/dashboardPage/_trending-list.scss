@@ -1,0 +1,51 @@
+.trending-list-wrapper {
+    position: absolute;
+    left: 940px;
+    width: 200px;
+
+
+}
+
+.trending-list-container {
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.041);
+    background:rgb(246, 246, 246);
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.trending-hashtag-title {
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -6px;
+}
+
+.trending-hashtag-count {
+    font-weight: 300;
+    margin-top: -5px;
+}
+
+.trending-hashtag {
+    margin-bottom: -35px;
+    display: inline-block;
+    color: $blue;
+}
+
+.individual-hashtag-container {
+    margin-top: -25px;
+}
+
+.trending-list-reset-button {
+    background: $blue;
+    border: none;
+    border-radius: 3px;
+    color: $white-shade;
+    margin: 10px 0;
+    padding: 5px 20px;
+}
+
+.trending-list-reset-button:hover {
+    background: #2a3247;
+}

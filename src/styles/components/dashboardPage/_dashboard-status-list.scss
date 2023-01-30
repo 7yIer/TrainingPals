@@ -1,0 +1,163 @@
+
+
+.dashboard-status-list-wrapper {
+    width: 80%;
+    margin-bottom: 500px;
+    margin: 0 auto;
+    position: relative;
+};
+
+.dashboard-status-list-container {
+    background: rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    border-radius: 7px;
+    height: 100%;
+    margin-top: 120px;
+    width: 100%;
+};
+
+.profile-status-remove-icon {
+    bottom: 32px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+
+
+.profile-status-image-remove-icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 8px;
+}
+
+.dashboard-status-remove-image {
+    width: 16px;
+    height: 16px;
+}
+
+.dashboard-status-list-author-name {
+    left: 70px;
+    position: relative;
+    text-align: left;
+};
+
+.dashboard-status-list-author {
+    border-radius: 4px;
+    margin-top: 16px;
+    position: relative;
+};
+
+.dashboard-status-list-date {
+    position: relative;
+    left: 12px;
+    top: 27px;
+}
+
+.dashboard-status-list-link-wrapper {
+    position: relative;
+    display: flex;
+    left: 12px;
+    width: 300px;
+};
+
+.dashboard-status-list-post-details-wrapper {
+    position: relative;
+    margin-top: -84px;
+}
+
+.dashboard-status-list-post-details-container {
+    position: absolute;
+    width: 300px;
+}
+
+.dashboard-status-list-description-wrapper {
+    position: relative;
+    text-align: left;
+}
+
+.dashboard-status-list-description { //
+    font-weight: 300;
+    left: 16px;
+    margin-bottom: -7px;
+    position: relative;
+    top: 5px;
+    text-align: initial;
+    width: 90%;
+}
+
+// .dashboard-like-comment-wrapper {
+//     position: relative;
+//     top: 70px;
+// }
+
+.dashboard-like-comment-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    bottom: 10px;
+}
+
+
+
+.dashboard-like-wrapper {
+    position: relative;
+    top: 12.5px;
+}
+
+.dashboard-comment-wrapper {
+    position: relative;
+    left: 55px;
+    bottom: 55px;
+}
+
+.dashboard-status-wrapper {
+    position: relative;
+}
+
+.dashboard-remove-status-wrapper {
+    position: relative;
+}
+
+.dashboard-remove-status {
+    color: $blue;
+    font-size: 110%;
+    position: absolute;
+    left: 93.5%;
+    top: 13px;
+}
+
+.dashboard-remove-status:hover {
+    color: #2a3247;
+}
+
+.dashboard-like-profile-container {
+    display: inline-block;
+    position: relative;
+    right: 60px;
+    z-index: 12;
+}
+
+.dashboard-like-amount {
+    position: relative;
+    right: 252px;
+}
+
+.dashboard-like-label-wrapper {
+    position: absolute;
+}
+
+.dashboard-like-label-wrapper {
+    position: relative;
+    margin-top: -51px;
+    right: 210px;
+    top: 10.5px;
+}
+
+.dashboard-like-label-icon {
+    color: $blue;
+}
+
+.dashboard-like-label-icon:hover {
+    color: #2a3247;
+}
